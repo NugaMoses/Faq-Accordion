@@ -1,0 +1,68 @@
+body{
+    font-family: 'WorkSans Bold';
+}
+
+.first-border{
+    background-color: white;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    width: 500px;
+    margin-right: 0px;
+    margin-left: 500px;
+    border-radius: 15px;
+    height: 400px;
+    padding-top: 140px; /* Add padding at the top */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+    position: absolute; /* Take the div out of the normal document flow */
+    top: 200px; /* Position the div at the top of its nearest positioned ancestor */
+    box-shadow: 0px 0px 3px 0px grey;
+}
+
+.first-border-star{
+    padding-left: 30px;
+    position: relative;
+    top: -90px;
+}
+
+@font-face {
+    font-family: 'WorkSans Bold';
+    src: url('fonts/static/WorkSans-Bold.ttf') format('truetype');
+   }
+
+   @font-face {
+    font-family: 'WorkSans-SemiBold';
+    src: url('fonts/static/WorkSans-SemiBold.ttf') format('truetype');
+   }
+   
+.first-border-text{
+    color: hsl(292, 42%, 14%);
+    padding-left: 100px;
+    font-size: 50px;
+    top: -200px;
+    position: relative;
+}
+
+.question{
+    color: hsl(292, 42%, 14%);
+    padding-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+    top: -240px;
+}
+
+.question-image{
+    .question-image {
+        vertical-align: middle;
+        margin-left: 50px; /* Adjust the margin as needed for proper spacing */
+    }
+}
+
+.info{
+    color: hsl(292, 16%, 49%);
+    font-size: small;
+    font-family: 'WorkSans-SemiBold';
+    padding-left: 30px;
+    top: -230px;
+    position: relative;
+}
